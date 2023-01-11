@@ -1,0 +1,75 @@
+#left {
+  left:0%;
+  text-align: left;
+  float: left;
+  width:50%;
+  z-index:-10;
+}
+
+#right {
+  left:0.00%;
+  top: 75px;
+  float: left;
+  text-align: left;
+  z-index:-10;
+  width:50%;
+}
+
+#leftcentered {
+  left:0%;
+  text-align: center;
+  float: left;
+  width:50%;
+  z-index:-10;
+}
+
+#rightcenter {
+  left:0.00%;
+  top: 75px;
+  float: left;
+  text-align: center;
+  z-index:-10;
+  width:50%;
+}
+
+figcaption {
+    background-color: white;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    display: inherit;
+    font-size: 20px;
+}
+
+table td, table td * {
+    vertical-align: top;
+}
+
+.header img {
+  float: right;
+  width: 73.4px;
+  height: 50px;
+  background: white;
+  right: 10px;
+}
+
+.header h1 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.overl {background-color:rgba(0,55,132,1);}
+.mathbox {background-color:rgba(250,250,250,.9);}
+
+.reveal p {
+  text-align: left;
+  line-height: 20px;
+}
+
+.twocolumn {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 10px;
+   text-align: center;
+}
