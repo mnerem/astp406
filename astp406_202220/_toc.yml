@@ -1,0 +1,10 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: 202220_PHYS406_syllabus.ipynb
+chapters:
+- file: Homework
+  sections:
+  - file: HW1.ipynb
+- file: Labs
