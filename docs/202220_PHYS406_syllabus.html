@@ -1,0 +1,473 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spring 2023 PHYS406 &#8212; ODU Observational Astronomy</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.5f77b4aec8189eecf79907ce328c390d.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Homework" href="Homework.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      <img src="_static/astp406-banner.svg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">ODU Observational Astronomy</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1 current">
+  <a class="reference internal" href="#">
+   Spring 2023 PHYS406
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="Homework.html">
+   Homework
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="HW1.html">
+     Homework Assignment 1
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Labs.html">
+   Labs
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/202220_PHYS406_syllabus.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F202220_PHYS406_syllabus.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/202220_PHYS406_syllabus.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#syllabus">
+   Syllabus
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#course-description">
+   Course Description
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#course-grade">
+   Course Grade
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#homework">
+     Homework
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#lab-exercises">
+     Lab Exercises
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#particpation">
+     Particpation
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#projects">
+     Projects
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#examinations">
+     Examinations
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#submitting-work-policies">
+     Submitting Work Policies
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#required-materials">
+     Required Materials
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#class-participation">
+     Class Participation
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#accommodation-statement">
+     Accommodation Statement
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#honor-pledge">
+     Honor Pledge
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#contacting-professor">
+     Contacting Professor
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="spring-2023-phys406">
+<span id="phys406-syllabus"></span><h1>Spring 2023 PHYS406<a class="headerlink" href="#spring-2023-phys406" title="Permalink to this headline">¶</a></h1>
+<p><img alt="banner" src="_images/astp406-banner.svg" /></p>
+<div class="section" id="syllabus">
+<h2>Syllabus<a class="headerlink" href="#syllabus" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="course-description">
+<h2>Course Description<a class="headerlink" href="#course-description" title="Permalink to this headline">¶</a></h2>
+<p>Observational techniques in astronomy with emphasis on constellation identification, celestial movements, and telescopic observation.  Individualized night observations are required.</p>
+<p>This course covers the principles and techniques of modern astronomical data
+acquisition and reduction. The aim is to provide you with a thorough understanding of the concepts
+involved in acquiring and reducing astronomical data, as well as practical experience in image
+processing, photometry, and spectroscopy.</p>
+</div>
+<div class="section" id="course-grade">
+<h2>Course Grade<a class="headerlink" href="#course-grade" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-course-grade-weights admonition">
+<p class="admonition-title">Course Grade Weights</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Homework       20%
+Lab Exercises  20%
+Participation  10%
+Project        10%
+Midterm Exam   20%
+Final Exam     20%
+</pre></div>
+</div>
+</div>
+<div class="admonition-letter-grade-distribution admonition">
+<p class="admonition-title">Letter Grade Distribution</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>A = 93% - 100%     B = 83% - 86.99%   C = 73% - 76.99%   D = 63% - 66.99% 
+A-= 90% - 92.99%   B-= 80% - 82.99%   C-= 70% - 72.99%   D-= 60% - 62.99% 
+B+= 87% - 89.99%   C+= 77% - 79.99%   D+= 67% - 69.99%    F = 0% - 59.99% 
+</pre></div>
+</div>
+</div>
+<div class="section" id="homework">
+<h3>Homework<a class="headerlink" href="#homework" title="Permalink to this headline">¶</a></h3>
+<p>There will be ~8 problem sets assigned though out the course and are based on material derived from the textbook. Tentatively one assignment every other week. Students are encouraged to collaborate but must submit their own work.</p>
+</div>
+<div class="section" id="lab-exercises">
+<h3>Lab Exercises<a class="headerlink" href="#lab-exercises" title="Permalink to this headline">¶</a></h3>
+<p>This assignments will have students analyze astronomical data, such as reducing large data sets or plotting distribution curves. Students will be given set of goals to accomplish with each exercise and will submit a <strong>lab report</strong> of their work.</p>
+</div>
+<div class="section" id="particpation">
+<h3>Particpation<a class="headerlink" href="#particpation" title="Permalink to this headline">¶</a></h3>
+<p>Attendance is a requirement for this course. There will be at least one mandatory night observation. Instructor will corrdinate with class and plan accordingly.</p>
+</div>
+<div class="section" id="projects">
+<h3>Projects<a class="headerlink" href="#projects" title="Permalink to this headline">¶</a></h3>
+<p>There will be one large scale astronomical project given in the semester. The project will combine multiple lab exercises and allow students to experience astronomical research. Details on the project will be given near the midpoint of the semester.</p>
+</div>
+<div class="section" id="examinations">
+<h3>Examinations<a class="headerlink" href="#examinations" title="Permalink to this headline">¶</a></h3>
+<p>There will be a midterm and a final exam given in this course.
+Exam will focus on material derived from the textbook but can include lab style questions.
+If you have a conflict and cannot make the test time you must contact the instructor a minimum of 48 business hours prior to the test date and take the test early. Any student that does not take a test prior to the due date will automatically receive a zero for that test. No late test will be offered.</p>
+</div>
+<div class="section" id="submitting-work-policies">
+<h3>Submitting Work Policies<a class="headerlink" href="#submitting-work-policies" title="Permalink to this headline">¶</a></h3>
+<p>All documents for assignments must be uploaded through Canvas. Any work emailed to the instructor will not be graded.</p>
+<p>The following table is quick reference for the penalties applied in the unfortunate case that work is
+submitted late. Timeliness is an important factor in the professional world and we must all strive to
+complete our work in a timely manner.</p>
+<div class="admonition-late-submission-policies admonition">
+<p class="admonition-title">Late Submission Policies</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Homework       5% penalty per day late.
+Lab Exercises  5% penalty per day late.
+Test           No makeup exams are offered.
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="required-materials">
+<h3>Required Materials<a class="headerlink" href="#required-materials" title="Permalink to this headline">¶</a></h3>
+<p>You must have access to a desktop computer or laptop that uses Windows 10 or macOS as its operating system, along with tools that scan scan physical documents to
+submission uploads. Course material is not guaranteed to function properly on tablet or smartphone devices. The instructor bears no responsibility for “technical issues” from use of tablet or smart-phone electronics. A stable internet connection is also required for the course. Webcams and microphones are highly recommended tools to have. If you believe you may have difficulties with the required materials you should contact your instructor immediately</p>
+<div class="admonition-course-textbook admonition">
+<p class="admonition-title"><strong>Course Textbook</strong></p>
+<p>Observational Astronomy</p>
+<p><img alt="obs_astro_text" src="_images/obs_astro_birney.jpg" /></p>
+</div>
+</div>
+<div class="section" id="class-participation">
+<h3>Class Participation<a class="headerlink" href="#class-participation" title="Permalink to this headline">¶</a></h3>
+<p>Communicating with the professor and receiving active feedback is a
+crucial part of any successful education. Students are encourage to ask questions in class or through
+email.</p>
+<p>Students are expected to check their emails daily and can find all announcements on the Canvas page. Everyone has a right to an engaging educational experience. Anyone disrupting the class will receive one warning. Any future incidents and the student will be immediately dismissed from the class. The instructor reserves the right to assign seats without warning or cause.</p>
+</div>
+<div class="section" id="accommodation-statement">
+<h3>Accommodation Statement<a class="headerlink" href="#accommodation-statement" title="Permalink to this headline">¶</a></h3>
+<p>Students are encouraged to self-disclose
+disabilities that have been verified by the Office of Educational
+Accessibility by providing Accommodation Letters to their instructors
+early in the semester in order to start receiving accommodations.
+Accommodations might not be made until the Accommodation Letters are
+provided to the instructor.</p>
+</div>
+<div class="section" id="honor-pledge">
+<h3>Honor Pledge<a class="headerlink" href="#honor-pledge" title="Permalink to this headline">¶</a></h3>
+<p>“<em>I pledge to support the honor system of Old Dominion
+University. I will refrain from any form of academic dishonesty or
+deception, such as cheating or plagiarism. I am aware that as a member
+of the academic community, it is my responsibility to turn in all
+suspected violators of the honor system. I will report to Honor Council
+hearings if I am summoned.</em>” By attending Old Dominion University you
+have accepted the responsibility to abide by this code. This is an
+institutional policy, approved by the Board of Visitors.</p>
+</div>
+<div class="section" id="contacting-professor">
+<h3>Contacting Professor<a class="headerlink" href="#contacting-professor" title="Permalink to this headline">¶</a></h3>
+<p>You can contact your professor in person during their office hours, by
+appointment, or by email (allow up to 48 business hours for a response to email). Any email should
+include this courses CRN number in the subject line to facilitate a timely response. Please note that
+email communications with your instructor are formal interactions, not text messages.</p>
+</div>
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='right-next' id="next-link" href="Homework.html" title="next page">Homework</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Matthew Perry Nerem<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>

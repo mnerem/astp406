@@ -11,3 +11,9 @@ These slides are made using [RevealJS](https://revealjs.com/), and html presenta
 The notes are made using a [graphics tablet](https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos) 
 and [Xournal++](https://xournalpp.github.io/), an open-source note taking software.
 - [Ch 1](./Lecture_Notes/Ch01_Lecture_Notes.pdf)
+
+
+## Steps for updating website
+- Compile book by Navigating to aspt406 Directory
+- `>> jupyter-book build --all astp406_202220/`
+- `>> cp -r astp406_202220/_build/html/* docs/`
