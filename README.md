@@ -1,7 +1,7 @@
 # ASTP 406 Observational Astronomy
 This repository host the lecture notes and revealjs slides for ODU's ASTP 406 course.
 
-- [Course Syllabus](./astp406_202220/_build/html/202220_PHYS406_syllabus.html)
+- [Course Syllabus](./astp406_202220/_build/html/index.html)
 
 ## Slides
 These slides are made using [RevealJS](https://revealjs.com/), and html presentation tool.
