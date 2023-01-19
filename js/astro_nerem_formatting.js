@@ -11,20 +11,9 @@ Reveal.initialize({
     transition: 'convex', // none/fade/slide/convex/concave/zoom
     
     // Vertical centering of slides
-    center: true,
+    center: false,
 
     preloadIframes: true,
-
-    audio: {
-        prefix: 'chalkboard/',
-        suffix: '.ogg',
-        defaultDuration: 5,
-//					textToSpeechURL: "http://api.voicerss.org/?key=[YOUR_KEY]&hl=en-gb&c=ogg&src=",
-        advance: 500,
-        autoplay: false,
-        defaultText: true,
-        playerOpacity: 0.0,
-    },
 
     chalkboard: {
             boardmarkerWidth: 3,
@@ -89,8 +78,6 @@ Reveal.initialize({
                 RevealChalkboard,
                 RevealMath,
                 RevealMenu,
-                RevealAudioSlideshow, 
-                RevealAudioRecorder
              ]
 });
 
