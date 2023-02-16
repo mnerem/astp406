@@ -18,6 +18,7 @@ and [Xournal++](https://xournalpp.github.io/), an open-source note taking softwa
 
 
 ## Example Jupyter notebook
+Right click and download links
 - [AstroPy_Tutorial.ipynb](AstroPy_Tutorial.ipynb) 
 - [convenience_functions.py](convenience_functions.py) 
 - [Lab1_Asteroid_Hunt.ipynb](Lab1_Asteroid_Hunt.ipynb)
