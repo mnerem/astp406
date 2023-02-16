@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="500"
+   height="600"
+   version="1.1"
+   viewBox="0 0 500 600"
+   id="svg41"
+   sodipodi:docname="Praezession.svg"
+   inkscape:version="1.2 (1:1.2.1+202207142221+cd75a1ee6d)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview43"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.0618387"
+     inkscape:cx="118.19121"
+     inkscape:cy="312.19431"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     inkscape:window-x="1920"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg41" />
+  <defs
+     id="defs7">
+    <radialGradient
+       id="a"
+       cx="343.05"
+       cy="866.45"
+       r="157.8"
+       fx="356.2"
+       fy="853.3"
+       gradientTransform="matrix(.57936 0 0 .57936 13.16 4.21)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#fff"
+         offset="0"
+         id="stop2" />
+      <stop
+         stop-color="#646464"
+         offset="1"
+         id="stop4" />
+    </radialGradient>
+  </defs>
+  <circle
+     cx="250"
+     cy="513.82"
+     r="74.738"
+     fill="url(#a)"
+     stroke="#000"
+     stroke-width="3"
+     id="circle9" />
+  <line
+     x1="219.91"
+     x2="25.47"
+     y1="461.4"
+     y2="124.13"
+     fill="#009245"
+     stroke="#009245"
+     stroke-miterlimit="10"
+     stroke-width="1.5"
+     id="line11" />
+  <g
+     fill="none"
+     stroke-miterlimit="10"
+     id="g19">
+    <line
+       x1="249.86"
+       x2="249.86"
+       y1="109.42"
+       y2="434.44"
+       stroke="#000"
+       stroke-dasharray="3.47617584, 3.47617584"
+       stroke-linecap="round"
+       stroke-width="1.5"
+       id="line13" />
+    <path
+       d="m396.86 32.81c-4.336-1.4536-17.909.93567-22.529-.36848-4.6204-1.3036-3.7172-7.2698-8.5879-8.4147-4.8707-1.1454-17.284 2.1124-22.371 1.1338-5.0885-.97912-6.6308-6.9234-11.901-7.7298-5.271-.80648-16.187 3.2323-21.604 2.6048-5.4182-.62803-9.3631-6.3886-14.891-6.8336-5.5283-.44553-14.646 4.2635-20.247 4.004-5.6001-.25897-11.841-5.6795-17.475-5.7508-5.6343-.0718-12.76 4.9663-18.338 5.2948-5.5775.32792-13.996-4.8151-19.582-4.5115-5.5862.30358-10.424 5.9518-15.93 6.4408-5.5045.48841-15.768-3.8203-21.154-3.1494-5.3863.6709-7.8544 6.5636-13.085 7.4112-5.2311.84761-17.11-2.7207-22.15-1.701-5.0399 1.0197-5.0712 6.9958-9.8851 8.1794s-17.986-1.5457-22.541-.20626c-4.5555 1.3401-2.1489 7.2374-6.4147 8.7252-4.2653 1.4872-18.371-.33024-22.318 1.2943-3.946 1.6245.83081 7.2814-2.7694 9.0317-3.6007 1.7502-18.255.89511-21.486 2.7595s3.7896 7.1273.95131 9.0925c-2.8377 1.9658-17.642 2.0956-20.068 4.1488-2.4264 2.0538 6.6447 6.7786 4.6471 8.906-1.9976 2.128-16.547 3.2392-18.103 5.4257-1.5556 2.1865 9.3173 6.2438 8.2148 8.4755-1.1025 2.2311-15 4.2942-15.643 6.5543-.64252 2.2601 11.737 5.5399 11.559 7.8139-.17844 2.274-13.046 5.2322-12.758 7.5045.28795 2.2723 13.835 4.6847 14.587 6.9396.75201 2.2549-10.733 6.0271-9.5224 8.2495 1.2109 2.2219 15.557 3.7016 17.218 5.8759 1.6604 2.1744-8.129 6.658-6.0288 8.7698 2.0996 2.1112 16.855 2.6176 19.38 4.6517 2.5249 2.0341-5.3035 7.1076-2.3708 9.0508s17.692 1.4617 21.012 3.3006c3.3203 1.8389-2.3325 7.3631 1.3522 9.085 3.6853 1.7213 18.047.26651 22.071 1.8598 4.0248 1.5932.70103 7.4176 5.0387 8.8712 4.336 1.4536 17.909-.93567 22.529.36848 4.6187 1.3036 3.7172 7.2693 8.5867 8.4147 4.8707 1.1454 17.284-2.1129 22.372-1.1338 5.088.97912 6.6296 6.9234 11.901 7.7299 5.2705.80647 16.186-3.2323 21.604-2.6048 5.4176.62745 9.3631 6.3886 14.891 6.8336 5.5277.44553 14.647-4.263 20.248-4.004 5.6001.25955 11.846 5.8718 17.475 5.7513 5.6291-.12051 12.709-5.1783 18.338-5.2948 5.6297-.11646 13.996 4.8151 19.581 4.5115 5.5856-.30358 10.423-5.9518 15.93-6.4408 5.5045-.4884 15.769 3.8197 21.155 3.1494 5.3858-.6709 7.8538-6.5636 13.085-7.4112 5.2305-.84761 17.111 2.7201 22.15 1.701 5.0387-1.0197 5.0706-6.9958 9.8857-8.1794 4.8128-1.1836 17.985 1.5457 22.541.20626 4.5555-1.3401 2.1477-7.2374 6.4141-8.7252s18.372.33023 22.319-1.2943c3.946-1.6245-.83312-7.2814 2.7676-9.0317 3.6013-1.7503 18.256-.89454 21.487-2.7595 3.2294-1.8644-3.789-7.1273-.95073-9.0925 2.8377-1.9658 17.641-2.0956 20.067-4.1494 2.4258-2.0533-6.6447-6.778-4.6471-8.906 1.9965-2.1274 16.547-3.2386 18.103-5.4257 1.5562-2.1871-9.3179-6.2444-8.2154-8.4755s15.001-4.2942 15.643-6.5543c.64193-2.2601-11.737-5.5399-11.559-7.8139.17844-2.2746 13.045-5.2322 12.758-7.5045-.28736-2.2723-13.835-4.6842-14.587-6.9396-.75201-2.2549 10.733-6.0271 9.5224-8.2496-1.2103-2.2224-15.558-3.7016-17.219-5.8759-1.6616-2.1744 8.129-6.658 6.0288-8.7698-2.0996-2.1112-16.855-2.6176-19.379-4.6517-2.5243-2.0341 5.3029-7.1076 2.3708-9.0508-2.9327-1.9432-17.692-1.4623-21.012-3.3006"
+       stroke="#f00"
+       stroke-width="3"
+       id="path15" />
+    <path
+       d="m206.92 400.61c5.8672-1.6289 10.274-1.477 11.705.83663 2.701 4.3692-6.2318 14.79-19.954 23.276-13.723 8.4858-27.037 11.823-29.738 7.4537-2.0197-3.2655 2.4612-9.9108 10.581-16.602"
+       stroke="#009245"
+       stroke-width="3"
+       id="path17" />
+  </g>
+  <path
+     d="m208.66 400.14 3.9424 4.3175-13.819-.84098 10.247-9.3122z"
+     fill="#009245"
+     id="path21" />
+  <path
+     d="m145.65 46.04c-22.714 2.8565-55.375 15.348-67.61 29.539"
+     fill="none"
+     stroke="#0071bc"
+     stroke-miterlimit="10"
+     stroke-width="3"
+     id="path23" />
+  <path
+     d="m138.87 38.25 20.276 7.3181-19.391 9.4146 3.1136-8.5554z"
+     fill="#0071bc"
+     stroke="#0071bc"
+     id="path25" />
+  <path
+     d="m410.62 99.22c-4.7349 1.2577-7.5458 3.0436-7.2306 5.0083.59611 3.7097 12.111 6.6515 25.721 6.5698s24.16-3.1554 23.564-6.8654c-.44489-2.773-6.9899-5.1158-15.949-6.0886"
+     fill="none"
+     stroke="#f00"
+     stroke-miterlimit="10"
+     stroke-width="3"
+     id="path27" />
+  <path
+     d="m410.26 98.72.23173 5.4344 14.136-6.4425-17.149-3.731z"
+     fill="#f00"
+     id="path29" />
+  <g
+     font-family="sans-serif"
+     font-size="30px"
+     font-style="oblique"
+     font-weight="bold"
+     id="g37">
+    <text
+       x="114.00129"
+       y="87.998451"
+       fill="#0071bc"
+       id="text31">P</text>
+    <text
+       x="366.00128"
+       y="113.99845"
+       fill="#ff0000"
+       id="text33">N</text>
+    <text
+       x="140.0013"
+       y="408.99844"
+       fill="#009245"
+       id="text35">R</text>
+  </g>
+  <ellipse
+     cx="249.25"
+     cy="104.7"
+     rx="223.05"
+     ry="89.801"
+     fill="none"
+     stroke="#0071bc"
+     stroke-width="1.5"
+     id="ellipse39" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';letter-spacing:0px;word-spacing:0px;fill:#0071bc;fill-opacity:1;stroke:none"
+     x="328.79272"
+     y="335.20859"
+     id="text326"><tspan
+       sodipodi:role="line"
+       x="328.79272"
+       y="335.20859"
+       id="tspan330"
+       style="font-size:32px;fill:#0071bc;fill-opacity:1">Precession</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';letter-spacing:0px;word-spacing:0px;fill:#009245;fill-opacity:1;stroke:none"
+     x="328.79272"
+     y="291.14459"
+     id="text442"><tspan
+       sodipodi:role="line"
+       x="328.79272"
+       y="291.14459"
+       id="tspan440"
+       style="font-size:32px;fill:#009245;fill-opacity:1">Rotation</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+     x="328.79272"
+     y="379.27258"
+     id="text450"><tspan
+       sodipodi:role="line"
+       x="328.79272"
+       y="379.27258"
+       id="tspan448"
+       style="font-size:32px;fill:#ff0000;fill-opacity:1">Nutation</tspan></text>
+</svg>

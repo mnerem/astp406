@@ -17,6 +17,12 @@ and [Xournal++](https://xournalpp.github.io/), an open-source note taking softwa
 - [Ch 4](./Lecture_Notes/Ch04_Lecture_Notes.pdf)
 
 
+## Example Jupyter notebook
+- [AstroPy_Tutorial.ipynb](AstroPy_Tutorial.ipynb) 
+- [convenience_functions.py](convenience_functions.py) 
+- [Lab1_Asteroid_Hunt.ipynb](Lab1_Asteroid_Hunt.ipynb)
+
+
 ## Steps for updating website
 - Compile book by Navigating to aspt406 Directory
 - `>> jupyter-book build --all astp406_202220/`
