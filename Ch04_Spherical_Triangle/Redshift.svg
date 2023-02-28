@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="383.55145"
+   height="562.21179"
+   version="1.1"
+   id="svg82"
+   sodipodi:docname="Redshift.svg"
+   inkscape:version="1.2 (1:1.2.1+202207142221+cd75a1ee6d)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview84"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.84680451"
+     inkscape:rotation="90"
+     inkscape:cx="95.063263"
+     inkscape:cy="240.31521"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     inkscape:window-x="1920"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg82" />
+  <defs
+     id="defs54">
+    <marker
+       id="arrow"
+       orient="auto"
+       overflow="visible">
+      <path
+         d="M 3.7,0 -5.4,-3.8 -3.7,0 -5.4,3.8 Z"
+         fill="#ffffff"
+         id="path2" />
+    </marker>
+    <linearGradient
+       id="lgSpectrum"
+       x1="399.49969"
+       y1="399.49969"
+       gradientTransform="scale(0.75093926,1.3316656)"
+       x2="399.49969"
+       y2="0"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#4F104D"
+         id="stop5" />
+      <stop
+         offset=".0878"
+         stop-color="#780078"
+         id="stop7" />
+      <stop
+         offset=".1386"
+         stop-color="#620683"
+         id="stop9" />
+      <stop
+         offset=".1634"
+         stop-color="#63009A"
+         id="stop11" />
+      <stop
+         offset=".2104"
+         stop-color="#1E01B1"
+         id="stop13" />
+      <stop
+         offset=".2564"
+         stop-color="#0323C3"
+         id="stop15" />
+      <stop
+         offset=".3193"
+         stop-color="#009793"
+         id="stop17" />
+      <stop
+         offset=".3586"
+         stop-color="#1DD51D"
+         id="stop19" />
+      <stop
+         offset=".3883"
+         stop-color="#32EF0A"
+         id="stop21" />
+      <stop
+         offset=".4082"
+         stop-color="#3FED04"
+         id="stop23" />
+      <stop
+         offset=".4377"
+         stop-color="#78FA02"
+         id="stop25" />
+      <stop
+         offset=".4798"
+         stop-color="#E3FF00"
+         id="stop27" />
+      <stop
+         offset=".5203"
+         stop-color="#FBFD03"
+         id="stop29" />
+      <stop
+         offset=".5535"
+         stop-color="#FF0"
+         id="stop31" />
+      <stop
+         offset=".5693"
+         stop-color="#FDF600"
+         id="stop33" />
+      <stop
+         offset=".5995"
+         stop-color="#FAD726"
+         id="stop35" />
+      <stop
+         offset=".5995"
+         stop-color="#F9D71B"
+         id="stop37" />
+      <stop
+         offset=".6361"
+         stop-color="#FE8503"
+         id="stop39" />
+      <stop
+         offset=".6712"
+         stop-color="#FE2704"
+         id="stop41" />
+      <stop
+         offset=".7234"
+         stop-color="#F00001"
+         id="stop43" />
+      <stop
+         offset=".8083"
+         stop-color="#DC0101"
+         id="stop45" />
+      <stop
+         offset=".8649"
+         stop-color="#C80106"
+         id="stop47" />
+      <stop
+         offset=".9244"
+         stop-color="#AE0100"
+         id="stop49" />
+      <stop
+         offset="1"
+         stop-color="#8A0702"
+         id="stop51" />
+    </linearGradient>
+  </defs>
+  <rect
+     style="fill:#ffffff;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:2.4"
+     id="rect636"
+     width="383.55145"
+     height="562.21179"
+     x="0"
+     y="0"
+     rx="1.87977"
+     ry="0.71428603" />
+  <rect
+     width="300"
+     height="532"
+     fill="url(#lgSpectrum)"
+     id="rect56"
+     x="41.775726"
+     y="15.105896"
+     style="fill:url(#lgSpectrum)" />
+  <rect
+     x="136.77573"
+     width="110"
+     height="532"
+     id="rect58"
+     y="15.105896" />
+  <g
+     fill="none"
+     stroke="#ffffff"
+     stroke-width="2.2"
+     stroke-linecap="round"
+     marker-end="url(#arrow)"
+     id="g74"
+     transform="translate(41.775726,15.105896)">
+    <path
+       d="m 103.8,528.29 84.77,-22.62"
+       id="path60" />
+    <path
+       d="m 103.8,476.45 84.77,-22.62"
+       id="path62" />
+    <path
+       d="m 103.8,403.47 84.77,-22.62"
+       id="path64" />
+    <path
+       d="m 103.8,356.04 84.77,-22.62"
+       id="path66" />
+    <path
+       d="m 103.8,340.8 84.77,-22.62"
+       id="path68" />
+    <path
+       d="m 103.8,244.47 84.77,-22.62"
+       id="path70" />
+    <path
+       d="m 103.8,142.21 84.77,-22.62"
+       id="path72" />
+  </g>
+  <g
+     fill="none"
+     stroke="#000000"
+     id="g80"
+     transform="translate(41.775726,15.105896)">
+    <path
+       d="m 0,245.5 h 95 m -95,95 H 95 M 0,458.59 H 95 M 0,353.52 h 95 m -95,2 H 95 M 0,402.38 H 95 M 0,471.5 h 95 m -95,3 h 95 m -95,6 h 95 m -95,37 h 95 m -95,-19 h 95 m -95,-3 h 95 m -95,-3 h 95 m -95,39 h 95 m -95,-19 h 95 m -95,10 H 95 M 0,483.5 H 95 M 0,142.5 H 95 M 0,0.5 h 95 m 110,112.14 h 95 M 205,218.5 h 95 m -95,98.09 h 95 m -95,12.91 h 95 m -95,2 h 95 m -95,48 h 95 m -95,72 h 95 m -95,3 h 95 m -95,7 h 95 m -95,38 h 95 m -95,-20 h 95 m -95,-4 h 95 m -95,-3 h 95 m -95,53 h 95 m -95,-32 h 95 m -95,10 h 95 m -95,-39 h 95 M 205,0.5 h 95"
+       id="path76" />
+    <path
+       d="M 0,526 H 95 M 0,486 h 95 m 110,45 h 95 m -95,-8 h 95 m -95,-3 h 95 m -95,-13 h 95 m -95,-40 h 95"
+       stroke-width="2"
+       id="path78" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="15.217539"
+     y="525.55054"
+     id="text457"><tspan
+       sodipodi:role="line"
+       id="tspan455"
+       x="15.217539"
+       y="525.55054" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="-536.4071"
+     y="35.157913"
+     id="text467"
+     transform="rotate(-90)"><tspan
+       sodipodi:role="line"
+       id="tspan465"
+       x="-536.4071"
+       y="35.157913"
+       style="font-size:32px">Sol optical spectra</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="-538.13513"
+     y="374.08865"
+     id="text527"
+     transform="rotate(-90)"><tspan
+       sodipodi:role="line"
+       id="tspan525"
+       x="-538.13513"
+       y="374.08865"
+       style="font-size:32px">Distance galaxies optical spectra</tspan></text>
+</svg>
