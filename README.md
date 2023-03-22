@@ -15,6 +15,7 @@ and [Xournal++](https://xournalpp.github.io/), an open-source note taking softwa
 - [Ch 1](./Lecture_Notes/Ch01_Lecture_Notes.pdf)
 - [Ch 2](./Lecture_Notes/Ch02_Lecture_Notes.pdf)
 - [Ch 4](./Lecture_Notes/Ch04_Lecture_Notes.pdf)
+- [Ch 5](./Lecture_Notes/Ch05_Reading_Notes.pdf)
 
 
 ## Example Jupyter notebook

@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="-6624 -656 317.58993 156.27449"
+   font-family="Arial, sans-serif"
+   font-size="180px"
+   id="svg1883"
+   sodipodi:docname="Twilight.svg"
+   width="3.3082285in"
+   height="1.6278592in"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:export-filename="Twilight.png"
+   inkscape:export-xdpi="240"
+   inkscape:export-ydpi="240"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview1885"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.3563182"
+     inkscape:cx="169.33197"
+     inkscape:cy="13.792704"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1883"
+     inkscape:document-units="in"
+     inkscape:pageshadow="0"
+     showguides="true" />
+  <title
+     id="title1656">Twilight subcategories</title>
+  <desc
+     id="desc1658">
+    viewBox=&quot;1840 -656 4784 3205&quot;         dawn
+    viewBox=&quot;-6624 -656 4784 3205&quot;        dusk
+    viewBox=&quot;-5500 -5000 11000 10000&quot;
+  </desc>
+  <path
+     id="path26912"
+     style="fill:#5092dc;fill-opacity:0.397353;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m -6623.4901,-618.99815 a 311.0882,311.0882 0 0 0 -0.01,0.14453 311.0882,311.0882 0 0 0 15.9707,96.67382 l 295.1172,-96.67382 z" />
+  <g
+     id="g13199"
+     transform="translate(157.31338,72.172932)">
+    <circle
+       style="fill:#ff7f2a;fill-opacity:1;stroke:none;stroke-width:2.89134"
+       id="circle13195"
+       cx="-6647.0688"
+       cy="-633.01013"
+       r="17.070656" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.263489"
+       id="circle13197"
+       cx="-6647.0688"
+       cy="-633.01013"
+       r="1.5556587" />
+  </g>
+  <g
+     id="g13193"
+     transform="translate(122.34502,59.116932)">
+    <circle
+       style="fill:#ff7f2a;fill-opacity:1;stroke:none;stroke-width:2.89134"
+       id="circle13189"
+       cx="-6647.0688"
+       cy="-633.01013"
+       r="17.070656" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.263489"
+       id="circle13191"
+       cx="-6647.0688"
+       cy="-633.01013"
+       r="1.5556587" />
+  </g>
+  <!--
+  I've used 5000 for the radius of the earth.
+  6,378 kilometers would be better.
+  5000 * 1.25 = 6250.
+  
+  This file uses some dx and dy tricks to position text.
+  
+  Q11288132 dusk (mashes civil, nautical, and astronomical dusk together)
+  Q164160 twilight
+    Q49415785 astronomical twilight
+    Q49415027 civl twilight
+    Q49415374 nautical twilight
+  Q11326182 dawn
+  Q43261 horizon
+  -->
+  <g
+     id="g13187"
+     transform="translate(87.376658,40.396932)">
+    <circle
+       style="fill:#ff7f2a;fill-opacity:1;stroke:none;stroke-width:2.89134"
+       id="circle13183"
+       cx="-6647.0688"
+       cy="-633.01013"
+       r="17.070656" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.263489"
+       id="circle13185"
+       cx="-6647.0688"
+       cy="-633.01013"
+       r="1.5556587" />
+  </g>
+  <metadata
+     id="metadata1660">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:publisher
+           rdf:resource="https://commons.wikimedia.org" />
+        <dc:date>2012-09-07</dc:date>
+        <dc:creator
+           rdf:resource="https://commons.wikimedia.org/wiki/User:TWCarlson" />
+        <cc:attributionURL
+           rdf:resource="https://commons.wikimedia.org/wiki/File:Twilight_subcategories.svg" />
+        <cc:attributionName>TWCarlson</cc:attributionName>
+        <cc:license
+           rdf:resource="https://creativecommons.org/licenses/by-sa/3.0/deed.en" />
+        <dc:title>Twilight subcategories</dc:title>
+      </cc:Work>
+      <cc:Work
+         rdf:about="https://commons.wikimedia.org/wiki/File:Twilight-dawn_subcategories.svg">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:publisher
+           rdf:resource="https://commons.wikimedia.org" />
+        <dc:date>2017-07-10</dc:date>
+        <dc:source
+           rdf:resource="https://commons.wikimedia.org/wiki/File:Twilight_subcategories.svg" />
+        <cc:attributionURL
+           rdf:resource="https://commons.wikimedia.org/wiki/File:Twilight-dawn_subcategories.svg" />
+        <cc:attributionName>Pmurph5</cc:attributionName>
+        <cc:license
+           rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/deed.en" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g13181"
+     transform="translate(52.408297,14.156145)">
+    <circle
+       style="fill:#ff7f2a;fill-opacity:1;stroke:none;stroke-width:2.89134"
+       id="path12412"
+       cx="-6647.0688"
+       cy="-633.01013"
+       r="17.070656" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.263489"
+       id="circle13141"
+       cx="-6647.0688"
+       cy="-633.01013"
+       r="1.5556587" />
+  </g>
+  <defs
+     id="defs1675">
+    <marker
+       id="arrs"
+       refX="0"
+       refY="5"
+       orient="auto"
+       markerWidth="15"
+       markerHeight="10">
+      <path
+         fill="#ffffff"
+         d="m 0,5 15,-5 -5,5 5,5 z"
+         id="path1662" />
+    </marker>
+    <marker
+       id="arre"
+       refX="15"
+       refY="5"
+       orient="auto"
+       markerWidth="15"
+       markerHeight="10">
+      <path
+         fill="#ffffff"
+         d="M 15,5 0,0 5,5 0,10 Z"
+         id="path1665" />
+    </marker>
+    <g
+       id="sun">
+      <title
+         id="title1668">sun</title>
+      <desc
+         id="desc1670">The diameter of the sun is 32 arcminutes or 0.53 degrees. Radius = 5000 sin(0.265) = 23.12553</desc>
+      <circle
+         r="23.12553"
+         fill="#ffff00"
+         stroke="#000000"
+         stroke-width="5"
+         id="circle1672"
+         cx="0"
+         cy="0" />
+    </g>
+  </defs>
+  <!-- sectors
+    5000 sin( 6) =    522.642316 ; cos( 6) = 4972.609477
+    5000 sin(12) =  1,039.558454 ; cos(12) = 4890.738004
+    5000 sin(18) =  1,545.084972 ; cos(18) = 4755.282581
+    -->
+  <path
+     id="path1679"
+     style="fill:#dbe9ff;fill-opacity:1;stroke-width:12.495"
+     class="day"
+     d="m -6422.24,-637.49315 c -1.1096,6.15247 -1.7002,12.38729 -1.7656,18.63867 h 111.5937 l 9e-4,5e-4 0.5322,-18.52496 z"
+     sodipodi:nodetypes="cccccc" />
+  <path
+     class="nit"
+     fill="#1f252d"
+     d="m -6312.411,-618.85398 c -5e-4,-10e-6 0,111.59469 0,111.59469 -48.3458,0 -91.1932,-31.13051 -106.1328,-77.11006 z"
+     id="path1687"
+     style="stroke-width:12.495"
+     sodipodi:nodetypes="cccc" />
+  <path
+     class="atw Q49415785"
+     fill="#263e66"
+     d="m -6312.4111,-618.85398 -106.1328,34.48462 a 111.59461,111.59461 0 0 1 -3.0232,-11.28279 z"
+     id="path1689"
+     style="stroke-width:0.999999" />
+  <path
+     class="ntw"
+     fill="#4773bb"
+     d="m -6312.4111,-618.85398 -109.156,23.20183 a 111.59461,111.59461 0 0 1 -1.8273,-11.53703 z"
+     id="path1691"
+     style="stroke-width:0.999999" />
+  <path
+     class="ctw Q49415027"
+     fill="#87a4d3"
+     d="m -6312.4111,-618.85398 -110.9833,11.6648 a 111.59461,111.59461 0 0 1 -0.6113,-11.6648 z"
+     id="path1693"
+     style="stroke-width:0.999999" />
+  <!-- dimension arcs
+    3200 sin( 6) = 334.491 ; cos( 6) = 3182.470
+    2850 sin(12) = 592.548 ; cos(12) = 2787.721
+    2500 sin(18) = 772.542 ; cos(18) = 2377.641
+    -->
+  <line
+     y1="-641.84387"
+     y2="-500.90939"
+     stroke="#000000"
+     stroke-width="9.99999"
+     id="line1745"
+     x1="-6312.4116"
+     x2="-6312.4116"
+     style="stroke-width:0.737807;stroke-dasharray:none" />
+  <!-- sunrise and sunset are not the center of sun. last limb is (16 minutes) 0.265; refraction (34 minutes) = 50 minutes or .83deg -->
+  <path
+     style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path19932"
+     sodipodi:type="arc"
+     sodipodi:cx="-6472.4116"
+     sodipodi:cy="-618.854"
+     sodipodi:rx="71.601585"
+     sodipodi:ry="72.918274"
+     sodipodi:start="2.801447"
+     sodipodi:end="3.1415927"
+     sodipodi:open="true"
+     sodipodi:arc-type="arc"
+     d="m -6539.9109,-594.52669 a 71.601585,72.918274 0 0 1 -4.1023,-24.32731" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.999996;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="ellipse19958"
+     sodipodi:type="arc"
+     sodipodi:cx="-6454.4116"
+     sodipodi:cy="-618.854"
+     sodipodi:rx="63.608326"
+     sodipodi:ry="64.779045"
+     sodipodi:start="2.4751546"
+     sodipodi:end="3.1415927"
+     sodipodi:open="true"
+     sodipodi:arc-type="arc"
+     d="m -6504.4096,-578.80824 a 63.608326,64.779045 0 0 1 -13.6103,-40.04576" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.999997;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="ellipse19984"
+     sodipodi:type="arc"
+     sodipodi:cx="-6432.4116"
+     sodipodi:cy="-618.854"
+     sodipodi:rx="55.364269"
+     sodipodi:ry="56.384438"
+     sodipodi:start="2.118494"
+     sodipodi:end="3.1415927"
+     sodipodi:open="true"
+     sodipodi:arc-type="arc"
+     d="m -6461.2411,-570.71716 a 55.364269,56.384438 0 0 1 -26.5348,-48.13684" />
+  <line
+     x1="-6623.4609"
+     x2="-6306.4102"
+     stroke="#000000"
+     stroke-width="9.99999"
+     id="line1743"
+     y1="-618.854"
+     y2="-618.854"
+     style="stroke-width:2.49999998;stroke-dasharray:none;stroke-miterlimit:4" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+     x="-6375.2808"
+     y="-624.43842"
+     id="text3786"><tspan
+       sodipodi:role="line"
+       id="tspan3784"
+       x="-6375.2808"
+       y="-624.43842"
+       style="font-size:13.3333px">Day</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none"
+     x="-6380.0659"
+     y="-559.68475"
+     id="text5900"><tspan
+       sodipodi:role="line"
+       id="tspan5898"
+       x="-6380.0659"
+       y="-559.68475"
+       style="font-size:13.3333px;fill:#ffffff">Night</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
+     x="-6558.6548"
+     y="-519.16559"
+     id="text8409"><tspan
+       sodipodi:role="line"
+       x="-6558.6548"
+       y="-519.16559"
+       id="tspan9565"
+       style="font-size:13.3333px;text-align:end;text-anchor:end">civil</tspan><tspan
+       sodipodi:role="line"
+       x="-6558.6548"
+       y="-502.49893"
+       style="font-size:13.3333px;text-align:end;text-anchor:end"
+       id="tspan22615">twilight</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+     x="-6489.6753"
+     y="-623.22546"
+     id="text11228"><tspan
+       sodipodi:role="line"
+       id="tspan11226"
+       x="-6489.6753"
+       y="-623.22546">horizon</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+     x="-6616.9751"
+     y="-646.63806"
+     id="text12743"><tspan
+       sodipodi:role="line"
+       id="tspan12741"
+       x="-6616.9751"
+       y="-646.63806">sunset</tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -6312.4119,-618.85448 -309.3859,32.83081"
+     id="path12880"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -6312.4119,-618.85448 -304.0703,64.4606"
+     id="path12962"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -6312.4119,-618.85448 -295.1173,96.67468"
+     id="path13059"
+     sodipodi:nodetypes="cc" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     x="-6524.7046"
+     y="-519.16559"
+     id="text24745"><tspan
+       sodipodi:role="line"
+       x="-6524.7046"
+       y="-519.16559"
+       id="tspan24741"
+       style="font-size:13.3333px;text-align:center;text-anchor:middle">nautical</tspan><tspan
+       sodipodi:role="line"
+       x="-6524.7046"
+       y="-502.49893"
+       style="font-size:13.3333px;text-align:center;text-anchor:middle"
+       id="tspan24743">twilight</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="-6489.9717"
+     y="-519.82526"
+     id="text24853"><tspan
+       sodipodi:role="line"
+       x="-6489.9717"
+       y="-519.82526"
+       id="tspan24849"
+       style="font-size:13.3333px;text-align:start;text-anchor:start">astronomical</tspan><tspan
+       sodipodi:role="line"
+       x="-6489.9717"
+       y="-503.1586"
+       style="font-size:13.3333px;text-align:start;text-anchor:start"
+       id="tspan24851">twilight</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none"
+     x="-6541.6904"
+     y="-605.716"
+     id="text27636"><tspan
+       sodipodi:role="line"
+       id="tspan27634"
+       x="-6541.6904"
+       y="-605.716">6<tspan
+   style="font-size:65%;baseline-shift:super;fill:#ffffff"
+   id="tspan28914">o</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none"
+     x="-6515.6904"
+     y="-605.716"
+     id="text31118"><tspan
+       sodipodi:role="line"
+       id="tspan31116"
+       x="-6515.6904"
+       y="-605.716">12<tspan
+   style="font-size:65%;baseline-shift:super;fill:#ffffff"
+   id="tspan31114">o</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none"
+     x="-6485.6904"
+     y="-605.716"
+     id="text31306"><tspan
+       sodipodi:role="line"
+       id="tspan31304"
+       x="-6485.6904"
+       y="-605.716">18<tspan
+   style="font-size:65%;baseline-shift:super;fill:#ffffff"
+   id="tspan31302">o</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.8, 0.7;stroke-dashoffset:0;stroke-opacity:1"
+     d="m -6559.6922,-592.49777 v 58.86745"
+     id="path32875" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.8, 0.7;stroke-dashoffset:0;stroke-opacity:1"
+     d="m -6489.7555,-560.88975 v 27.25943"
+     id="path32957"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.8, 0.7;stroke-dashoffset:0;stroke-opacity:1"
+     d="m -6524.7238,-574.17798 v 40.54766"
+     id="path33032"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.8, 0.7;stroke-dashoffset:0;stroke-opacity:1"
+     d="m -6594.6605,-643.58611 v 24.95601"
+     id="path33324"
+     sodipodi:nodetypes="cc" />
+</svg>
