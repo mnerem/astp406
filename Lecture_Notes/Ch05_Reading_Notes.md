@@ -47,7 +47,7 @@ Example flashlight with adjustable end that concentrates beam or disperses it.
   Weights given by *luminosity function* (model of human eyes
   sensitivity to different wavelengths)
 
-  ![Explanation of what a solid angle is](../Ch05_Quantify_Light/solid_angle_def.png)
+  ![Explanation of what a solid angle is](../Ch05_Quantify_Light/solid_angle_def.pdf)
 
   **A wax candle has a luminous intensity of about 1cd.**
 
@@ -187,6 +187,8 @@ Higher number equals fainter object
        Astronomers have to agree a specific star has a specified magnitude
        (see Bolometric magnitude and IAU 2015 resolution B2 for examples).
 
+       $$[F] = \text{photons } \text{s}^{-1} \text{ cm}^{-2}$$
+
 - What difference in magnitude results from a *small* difference in apparent brightness?
     $$
       \Delta m = -2.5\log\left[\frac{F_2}{F_1}\right]
@@ -294,16 +296,84 @@ $A_\lambda$ is absorption (in magnitude) at that passband
 Interstellar absorption always makes an object appear further.
 
 # Color Index
+Advances in photography in near end of 19th century allowed
+**quantitative** measurements of a star's color. 
 
+Earliest photographic plates more sensitive to blue light.
 
-# Magnitude zero points
+ - Blue stars appear brighter
+ - Red stars appear dimmer
 
-# Filter systems
-This one seems important 
+**Color index** is the difference between magnitudes of a star
 
 # Flux
 
-The energy flux ($F$) or just flux, describes the brightness in physical units.
+The energy flux ($F$) or just flux, describes the 
+*apparent brightness* in physical units.
+
+$F$ is the amount of light energy per 
+unit area $(\Delta A)$ per unit time $(\Delta t)$
+at given bandpass
+
+$$F=\frac{E_\text{band}}{\Delta A \,\Delta t}$$ 
+$$ [F] = \text{erg }\text{cm}^{-2}\text{ s}^{-1}
+   \text{ or } \text{W}\text{cm}^{-2}
+$$
+
+$$ 1 \text{erg} = 100 \text{nJ  (an erg is a cgs unit of energy)}$$
+
+In practice, we report the 
+**monochromatic flux**, flux at a specific $\lambda$ or $\nu$.
+
+$$F_\lambda=\frac{E_\lambda}{\Delta A \,\Delta t \, \Delta \lambda}
+  \quad,\quad
+  F_\nu=\frac{E_\lambda}{\Delta A \,\Delta t \, \Delta \nu}
+$$
+
+$$ \nu F_\nu = \lambda F_\lambda $$
+
+$[F_\lambda]$=erg s$^{-1}$ cm$^{-2}$ $\AA^{-1}$ 
+,
+$[F_\nu]$=erg s$^{-1}$ cm$^{-2}$ Hz$^{-1}$ 
+
+A popular unit for $F_\nu$ (for radio astronomy) is the $jansky$
+
+$$ 1\text{ jansky} = 10^{-26}\,\text{W m}^{-2} \text{ Hz}^{-1} $$
+
+**Note** that most optical astronomical detectors do not detect energy,
+they detect photons.
+$F$ from Pogson equation is measured in photons per s per cm$^2$. 
+
+Converting flux units from photon flux to energy flux is
+
+$$ 
+  \left[ F \text{ in } \frac{\text{photons}}{\text{s } \text{cm}^2} \right]
+  =
+  \left[ F \text{ in } \frac{\text{energy}}{\text{s } \text{cm}^2} \right] h\nu
+$$
+$h\nu$ is the energy per photon.
+
+There are *many* ways to present the 
+**spectral energy distribution** (SED) of an astronomical source. 
+
+![Energy Flux vs Photon Flux for Vega. Notice slope is steeper for energy flux](../Ch05_Quantify_Light/SED-Vega.pdf
+)
+
 
 
 # Blackbody Radiation
+
+(Start with video about object "blacker" than VANTA black)
+
+[https://youtu.be/JoLEIiza9B://youtu.be/JoLEIiza9Bc](https://youtu.be/JoLEIiza9B://youtu.be/JoLEIiza9Bc)
+
+
+An object that absorbs EM-radiation at **all** wavelengths is a **black body**.
+
+- idealized object (no real blackbodies but still a useful model)
+- opaque
+- non-reflective
+
+**Black body radiation** is the *thermal* EM radiation emitted by
+a black body that is in **thermal equilibrium** with its environment. 
+

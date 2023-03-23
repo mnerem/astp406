@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Perry Nerem" />
+  <title>Ch5 Lecture Notes</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <script src="/usr/share/javascript/mathjax/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Ch5 Lecture Notes</h1>
+<p class="author">Perry Nerem</p>
+</header>
+<nav id="TOC">
+
+</nav>
+
+<h1 id="units-and-light">Units and Light</h1>
+<p>(Not textbook notes but stuff I added)</p>
+<p>Below is a list of words we associate with light, but can we give these proper <em>physical</em> definitions?</p>
+<p>Brightness, flux, intensity, luminosity, lux, lumens, magnitude, polarization, …</p>
+<h2 id="lumens-luminosity-lux">Lumens, Luminosity, Lux</h2>
+<p>We have many <strong>many</strong> ways to quantify light. Example flashlight with adjustable end that concentrates beam or disperses it.</p>
+<ul>
+<li><p><strong>Luminosity</strong>: absolute measure of electromagnetic power. <span class="math display">\[[L] = \frac{\text{Joules}}{{\text{second}}} = \text{Watt} \]</span></p>
+<p><span class="math display">\[ L\text{sol} = 3.828\times10^{26}\text{W} \]</span></p></li>
+<li><p><strong>Flux</strong>: How bright does a light source appear? Depends on luminosity, <strong>distance</strong>, and amount of dust between us and the light source.</p>
+<figure>
+<img src="../Ch05_Quantify_Light/Inverse_square_law.png" alt="Flux from a point light source." /><figcaption><a href="https://commons.wikimedia.org/wiki/File:Inverse_square_law.svg">Flux from a point light source.</a></figcaption>
+</figure>
+<p><span class="math display">\[
+    \text{Flux} = \frac{\text{Luminosity}}{\text{Surface Area}}
+  \]</span></p></li>
+<li><p><strong>Candella</strong>: SI unit for <em>luminous intensity</em> (cd) Specifically a measure of luminous power per solid angle, <strong>but</strong> wavelengths are weighted. Weights given by <em>luminosity function</em> (model of human eyes sensitivity to different wavelengths)</p>
+<figure>
+<img src="../Ch05_Quantify_Light/solid_angle_def.png" alt="Explanation of what a solid angle is" /><figcaption>Explanation of what a solid angle is</figcaption>
+</figure>
+<p><strong>A wax candle has a luminous intensity of about 1cd.</strong></p></li>
+<li><p><strong>Lumen</strong>: unit of luminous flux (<span class="math inline">\(\ell m\)</span>), a measure of <strong>percieved</strong> power of light. Luminous flux weights the power of different wavelengths based on the human eye sensitivity.</p>
+<p><span class="math display">\[
+    1\ell m = 1\text{cd} \times 1 \text{sr}
+  \]</span></p></li>
+<li><p><strong>Lux</strong>: unit of luminous flux per unit area. Example: flashlight same distance from wall but is the beam concentrated or spread out.</p>
+<p><span class="math display">\[ 1\ell x = 1\ell m / m^2 \]</span></p></li>
+</ul>
+<h1 id="random-facts-about-light">Random facts about light</h1>
+<ul>
+<li><span class="math inline">\(c=\lambda \nu = 2.998e8\text{m/s}\)</span></li>
+<li>Energy of light given by Plank’s constant times the frequency <span class="math display">\[ E=h\nu \quad h=6.626\text{e-34Js} \]</span></li>
+<li>Information we can get from studying light
+<ul>
+<li>apparent brightness</li>
+<li>spectral energy distribution (find example)</li>
+<li>Doppler shift</li>
+<li>spectral line broadening (find example)</li>
+<li>Zeeman line splitting (find example)</li>
+<li>temporal variations</li>
+<li>polarization</li>
+</ul>
+Applying physics principles we can also determine
+<ul>
+<li>light source’s <strong>distance</strong></li>
+<li>luminosity</li>
+<li>temperature</li>
+<li>chemical composition</li>
+<li>size</li>
+<li>rotation</li>
+<li>magnetic fields</li>
+<li>radial and transverse velocity</li>
+<li><strong>intervening absorption by gas and dust</strong></li>
+</ul></li>
+<li>Astronomical sources categorized as <em>point</em> and <em>extended</em>
+<ul>
+<li><strong>Point</strong>: most stars</li>
+<li><strong>Extended</strong>: sol, nebulae, <em>resolved</em> galaxies, diffuse synchotron emission, <strong>CMB</strong>, <em>IR dust emission in the Solar system</em>.</li>
+</ul>
+Light measured from the two sources has to be handled differently</li>
+</ul>
+<h1 id="the-magnitude-scale">The Magnitude Scale</h1>
+<p>A star’s <strong>apparent brightness</strong> is referred to as <strong>magnitude</strong>.</p>
+<p>Higher number equals fainter object</p>
+<ul>
+<li><p>“Cumbersome” system inherited from antiquity and still widely used.</p></li>
+<li><p>Originally based on appearance of stars between <strong>sunset</strong> and <strong>astronomical twilight</strong> (see figure 3)</p>
+<figure>
+<img src="../Ch05_Quantify_Light/Twilight.png" alt="What is twilight" /><figcaption>What is twilight</figcaption>
+</figure>
+<p>Sunset <span class="math inline">\(\rightarrow\)</span> end of twilight broken into 6 segments. Stars that appear in the first segment were magnitude 1 (the brightest), stars appearing in the second time segment were magnitude 2, …</p></li>
+<li><p>Human eye the only tool to quantify magnitudes for centuries.</p></li>
+<li><p>Invention of photometers revealed two facts</p>
+<ol type="1">
+<li><p>Magnitude 1 was too broad. Sirius <em>much</em> brighter than Regulus but both are mag1.</p></li>
+<li><p>Ratios of magnitude brightness <span class="math inline">\(\approx\)</span> 2.5. <span class="math display">\[\frac{B_3}{B_4}\approx 2.5,
+  \quad
+  \frac{B_3}{B_5}\approx 2.5^2
+\]</span></p>
+<p>Humans see <em>equal brightness</em> ratios as equal steps in <em>magnitude</em> <span class="math inline">\(\therefore\)</span> <strong>human vision is logarithmic</strong></p>
+<p><span class="math inline">\(m\)</span> = magnitude, <span class="math inline">\(F\)</span> = apparent brightness (flux) <span class="math display">\[
+   \Delta m \propto \log\left(\frac{F_2}{F_1}\right)
+\]</span></p></li>
+</ol></li>
+<li><p>1856 Pogson proposes modern definition of magnitude scale.</p>
+<p><span class="math display">\[
+    \boxed{\frac{F_1}{F_2}\equiv \left(\sqrt[5]{100}\right)^{m_2-m_1}}
+    \approx 2.5119^{m_2-m_1}
+  \]</span> <em>Mag difference of 5 exactly equals ratio of 100 to 1</em>.</p>
+<p><span class="math display">\[
+    \log\left[\frac{F_1}{F_2}\right] =
+    \log\left[\left(\sqrt[5]{100}\right)^{m_2-m_1}\right]
+  \]</span></p>
+<p><span class="math display">\[
+    \log\left[\frac{F_1}{F_2}\right] = \log(100^{\dfrac{m_2-m_1}{5}})
+  \]</span></p>
+<p><span class="math display">\[
+    \log\left[\frac{F_1}{F_2}\right] = \frac{m_2-m_1}{5}\log(10^2)
+  \]</span></p>
+<p><span class="math display">\[
+    -\log\left[\frac{F_2}{F_1}\right] = \frac{m_2-m_1}{5}\,2
+  \]</span></p>
+<p><span class="math display">\[
+    \boxed{m_2-m_1 = -2.5\log\left[\frac{F_2}{F_1}\right]}
+  \]</span></p>
+<ol type="1">
+<li><p>Cannot identify magnitude of a single star by itself. Must compare stars through difference in magnitudes.</p></li>
+<li><p>No zero from log <span class="math inline">\(\therefore\)</span> <span class="math display">\[ \boxed{
+     \text{Pogson Equation: }
+     m_i=-2.5 \log F_i + C 
+     }
+ \]</span> where <span class="math inline">\(C\)</span> is the <em>zero-point offset</em>. Astronomers have to agree a specific star has a specified magnitude (see Bolometric magnitude and IAU 2015 resolution B2 for examples).</p></li>
+</ol></li>
+<li><p>What difference in magnitude results from a <em>small</em> difference in apparent brightness? <span class="math display">\[
+    \Delta m = -2.5\log\left[\frac{F_2}{F_1}\right]
+    \quad \rightarrow \quad
+    f(x)=-2.5\log(x)
+  \]</span> Use a Taylor series to expand the log function <span class="math display">\[
+    f(x)=f(a)+\frac{1}{1!}f^\prime(a)(x-a)+
+    \frac{1}{2!}f^{\prime\prime}(a)(x-a)^2+
+    \frac{1}{3!}f^{\prime\prime\prime}(a)(x-a)^3
+    +\ldots
+  \]</span> Need to change base to compute derivatives correctly</p>
+<p><span class="math display">\[ \log_b(a)=\frac{\log_c(a)}{\log_c(b)} \]</span></p>
+<p><span class="math display">\[ f(x)=-2.5\frac{\ln(x)}{\ln(10)} = -1.086\ln(x)\]</span></p>
+<p><span class="math display">\[ f(a)=-1.086\ln(x) \]</span></p>
+<p><span class="math display">\[ f^\prime(x) = -1.086 \frac{1}{x}, \quad f^\prime(a)=-1.086\frac{1}{a} \]</span></p>
+<p><span class="math display">\[ f^{\prime\prime}(x) = +1.086 \frac{1}{x^2}, 
+     \quad f^{\prime\prime}(a)=+1.086\frac{1}{a^2} 
+  \]</span></p>
+<p>Let <span class="math inline">\(a=1\)</span> (i.e. <span class="math inline">\(F_2=F_1\)</span>) <span class="math display">\[ f(x)=-1.086(x-1)+1.086 \frac{(x-1)^2}{2} + \ldots \]</span></p>
+<p>Evaluate this function at <span class="math inline">\(x=F_2/F_1\)</span> under the condition that <span class="math inline">\(F_2=F_1+\epsilon\)</span>. <span class="math inline">\(\therefore x\approx 1\)</span> and <span class="math inline">\((x-1)^n \approx 0\)</span> for <span class="math inline">\(n&gt;1\)</span>.</p>
+<p><span class="math display">\[ f(x=F_2/F_1)=-1.086\left(\frac{F_2}{F_1}-1\right) + O(x^2) \]</span> <span class="math display">\[ f(x) \approx 1.086\left(\frac{F_2}{F_1}-\frac{F_1}{F_1}\right) \]</span> <span class="math display">\[ \boxed{\Delta m \approx -\frac{\Delta F}{F_1}} \]</span></p>
+<p>Suppose star 1 has a magnitude of <span class="math inline">\(m_1=3.5\)</span> and star 2 <span class="math inline">\(m_2=3.6\)</span>. Than <span class="math display">\[ \Delta m = 0.1 \]</span> and star 2 is about 10% brighter. <span class="math display">\[ 0.1 \approx \frac{\Delta F}{F_1} \]</span> <span class="math display">\[ 0.1F_1 \approx (F_2-F_1) \]</span> <span class="math display">\[ F_2 \approx 1.1F_1 \]</span></p></li>
+</ul>
+<figure>
+<img src="../Ch05_Quantify_Light/openstax_magnitude_scale.jpeg" alt="Modern Magnitude system" /><figcaption>Modern Magnitude system</figcaption>
+</figure>
+<h2 id="magnitude-and-wavelength-dependence">Magnitude and Wavelength Dependence</h2>
+<p>The human eye’s sensitivity to to different wavelengths means sources can appear to have different magnitudes, even if they are the same luminosity. Compare a flashlight to the IR beam from a TV remote.</p>
+<p>The Pogson equation is an example of the <strong>visual magnitude</strong>.</p>
+<p><span class="math display">\[ \boxed{
+    \text{Monochromatic Pogson Equation: }
+    m_\lambda=-2.5 \log F_\lambda + C 
+    }
+\]</span></p>
+<p><strong>Bolometric magnitude</strong> is the opposite of monochromatic, and includes ALL EM radiation emitted by the source.</p>
+<p><span class="math display">\[ 
+    \text{Bolometric correction: }
+    BC_\text{band}=m_\text{bol}-m_\text{band}
+\]</span></p>
+<p><span class="math inline">\(m_\text{band}\)</span> is the magnitude in some passband.</p>
+<p>Example: The bolometric correction to the visual magnitude, <span class="math inline">\(BC_\text{V}\)</span>, for the sun is <span class="math inline">\(BC_\text{V}=-0.07\)</span> magnitudes.</p>
+<h2 id="absolute-magnitude">Absolute Magnitude</h2>
+<p><strong>Absolute Magnitude</strong>: The apparent magnitude a star would be <em>if</em> it was 10 parsecs away.</p>
+<p>Must know the stars apparent magnitude and distance.</p>
+<p><span class="math display">\[\text{\textbf{Distance Modulus}: } m-M=5\log\left(\frac{d}{10}\right)\]</span></p>
+<table>
+<thead>
+<tr class="header">
+<th>Distance Modulus</th>
+<th>Distance (parsec)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>15.8</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>100</td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td>1000</td>
+</tr>
+<tr class="even">
+<td>15</td>
+<td>10000</td>
+</tr>
+</tbody>
+</table>
+<p>If <span class="math inline">\(d&gt;10\)</span>pc must consider <strong>interstellar absorption</strong>!</p>
+<figure>
+<img src="../Ch05_Quantify_Light/interstellar_absorption.jpeg" alt="Interstellar absorption" /><figcaption><a href="https://openstax.org/books/astronomy-2e/pages/20-2-interstellar-gas#OSC_Astro_20_02_Spectrum">Interstellar absorption</a></figcaption>
+</figure>
+<p><span class="math display">\[\text{Apparent Distance modulus: }
+  (m-M)_\lambda=(m-M)_0+A_\lambda
+\]</span></p>
+<p><span class="math inline">\(A_\lambda\)</span> is absorption (in magnitude) at that passband (wavelength <span class="math inline">\(\lambda\)</span>).</p>
+<p>Interstellar absorption always makes an object appear further.</p>
+<h1 id="color-index">Color Index</h1>
+<p>Advances in photography in near end of 19th century allowed <strong>quantitative</strong> measurements of a star’s color.</p>
+<p>Earliest photographic plates more sensitive to blue light.</p>
+<ul>
+<li>Blue stars appear brighter</li>
+<li>Red stars appear dimmer</li>
+</ul>
+<p><strong>Color index</strong> is the difference between magnitudes of a star</p>
+<h1 id="magnitude-zero-points">Magnitude zero points</h1>
+<h1 id="filter-systems">Filter systems</h1>
+<p>This one seems important</p>
+<h1 id="flux">Flux</h1>
+<p>The energy flux (<span class="math inline">\(F\)</span>) or just flux, describes the brightness in physical units.</p>
+<h1 id="blackbody-radiation">Blackbody Radiation</h1>
+</body>
+</html>
