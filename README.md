@@ -8,6 +8,7 @@ These slides are made using [RevealJS](https://revealjs.com/), and html presenta
 - [Ch 1: Celestial Sphere and Coordinate Systems](./Ch01_Celestial_Sphere_and_Coordinate_Systems/Ch01_slides.html)
 - [Ch 2: Time](./Ch02_Time/Ch02_slides.html)
 - [Ch 4: Time](./Ch04_Spherical_Triangle/Ch04_slides.html)
+- [Ch 5: Ch05_Quantify_Light](./Ch05_Quantify_Light/Ch05_slides.html)
 
 ## Lecture Notes (PDF)
 The notes are made using a [graphics tablet](https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos) 
