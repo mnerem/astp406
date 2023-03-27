@@ -368,12 +368,278 @@ There are *many* ways to present the
 [https://youtu.be/JoLEIiza9B://youtu.be/JoLEIiza9Bc](https://youtu.be/JoLEIiza9B://youtu.be/JoLEIiza9Bc)
 
 
-An object that absorbs EM-radiation at **all** wavelengths is a **black body**.
+An object that absorbs EM-radiation at **all** wavelengths is a **blackbody**.
 
 - idealized object (no real blackbodies but still a useful model)
 - opaque
 - non-reflective
 
-**Black body radiation** is the *thermal* EM radiation emitted by
-a black body that is in **thermal equilibrium** with its environment. 
+**Blackbody radiation** is the *thermal* EM radiation emitted by
+a blackbody that is in **thermal equilibrium** with its environment. 
 
+The SED of blackbody depends *only* on its temperature.
+
+- composition
+- size
+- shape
+
+do not determine a blackbody's SED.
+
+![A cavity with a hole a useful model of a blackbody](../Ch05_Quantify_Light/Black_body_realization.svg.png){width=2in}
+
+## Model Blackbody Radiation: Rayleigh-Jeans Law
+We can "easily" derive an expression for the EM flux of
+a blackbody\footnote{Derivation based on work found here [https://elliptigon.com/raleigh-jeans/]}. 
+A blackbody is a perfect absorber **and** therefore also a perfect emitter.
+
+We'll model blackbody radiation as the EM radiation that is
+in thermal equilibrium with the walls of the blackbody.
+The walls of the blackbody are in thermal equilibrium 
+with the "temperature" of radiation (energy in = energy out).
+
+- Consider our blackbody cavity to be a cube of length $L$
+  (it can be shown that shape does not matter
+   but the analysis is easier with Cartesian symmetry).
+- Walls of cavity are oscillating charge particles.
+- Charge particles oscillation frequency = EM radiation frequency
+- At thermal equilibrium, average energy of oscillating charge
+  = to average energy EM field.
+
+Oscillating particle has energy
+\begin{gather*}
+    H = \frac{p^2}{2m}+\tfrac{1}{2}aq^2 
+    \\
+    H = H_\text{kin}+H_\text{pot}
+\end{gather*}
+
+**Equipartition theorem**: At thermal equilibrium, energy is shared evenly among all possible forms.
+$$
+    \langle H\rangle=
+    \langle H_\text{kin}\rangle+
+    \langle H_\text{pot}\rangle
+    = (\,\tfrac{1}{2}k_B T\,)+(\,\tfrac{1}{2}k_B T\,)
+$$
+$$
+    \boxed{
+    \langle H\rangle=k_B T
+    }
+$$
+where $k_B=$Boltzmann constant = 1.381e-23 J/K.
+**The outgoing EM waves of a blackbody have energy $k_BT$!**
+
+- We have found the energy one "thermal" wave has.
+- **Find the total number of waves in the cavity.**
+    - Solve wave equation for standing waves
+    - Count waves in $k$-space
+    - Convert to wavelength space
+
+$$\text{Wave Equation: } \Big(\nabla^2 -c^2 \frac{\partial^2}{\partial t^2} \Big) \Psi(\vec{r},t)=0$$
+
+Ansatz: $\Psi(\vec{r},t)=\psi(\vec{r}\,)\,\phi(t)$ (for separation of variables).
+
+$$
+    \Big(\nabla^2 -c^2 \frac{\partial^2}{\partial t^2} \Big) \psi\phi=0 
+$$
+$$
+    \phi\nabla^2\psi-c^2\psi\frac{\partial^2 \phi}{\partial t^2}=0
+$$
+$$
+    \frac{1}{\psi}\nabla^2\psi=\frac{1}{\phi}c^2\frac{\partial^2 \phi}{\partial t^2}
+$$
+Left hand side depends only on position. Right hand side depends only on time,
+meaning this equation must equal a constant! Call that constant $k^2$.
+
+Focus on just the position dependent $\psi$ equation.
+
+$$
+    \nabla^2\psi=k^2\psi
+$$
+
+Ansatz: $\psi(\vec{r}\,)=E_x(x)\,E_y(y)\,E_z(z)$
+
+
+
+$$
+    \frac{d^2E_x}{dx^2}\,E_y\,E_z+
+    E_x\,\frac{d^2E_y}{dy^2}\,E_z+
+    E_x\,E_y\,\frac{d^2E_z}{dz^2}=
+    k^2E_x\,E_y\,E_z\
+$$
+Divide whole equation by $E_x\,E_y\,E_z$
+$$
+    \underbrace{\frac{d^2E_x}{dx^2}\frac{1}{E_x}}_\text{only x dependence}+
+    \underbrace{\frac{d^2E_y}{dy^2}\frac{1}{E_y}}_\text{only y dependence}+
+    \underbrace{\frac{d^2E_z}{dz^2}\frac{1}{E_z}}_\text{only z dependence} 
+    =k^2
+$$
+
+$$
+    \therefore \quad \frac{d^2E_x}{dx^2}\frac{1}{E_x} =
+    \text{ constant }
+    = (k_x)^2
+$$
+
+$$ (k_x)^2+(k_y)^2+(k_z)^2=k^2 $$
+$k$ here is called the *wave-number*. 
+For EM waves $k=2\pi/\lambda$.
+
+$$
+    \frac{d^2E_x}{dx^2}\frac{1}{E_x} = (k_x)^2
+    \quad \Rightarrow \quad
+    \frac{d^2E_x}{dx^2} = (k_x)^2 E_x
+$$
+    
+$$E_x=A\cos(k_x x)+B \sin(k_x x)$$
+
+Apply boundary condition for standing waves
+
+$$ E_x(x=0)=0, \quad E_x(x=L)=0 $$
+
+This forces the $A$ constant on cosine to be zero and we have
+
+$$ E_x(x=L)= 0 = B\sin(k_x L) $$
+
+This condition is only valid when
+
+$$ k_x L = n_x \pi \quad \underbrace{n_x=1,2,3,\ldots}_\text{ask class why no n=0} $$
+
+Apply this to the $y$ and $z$ equations to find
+
+$$\boxed{\psi(\vec{r}\,)=B\sin(k_x x)\sin(k_y y)\sin(k_z z)}$$
+and
+$$k^2=\frac{\pi^2}{L^2}(n_x^2+n_y^2+n_z^2)$$
+    
+Look at $k$-space to count the number of standing waves.
+
+![$k$ space is positive definite, therefore only 1/8 of a sphere present.](../Ch05_Quantify_Light/k-space-diagram.pdf){width=2.85in}
+
+- Points in $k$ space are always separated by steps of $\pi/L$.
+- Every $(\pi/L)^3$ cube contains one standing wave.
+
+The number of standing waves, $N(k$), in the spherical shell shown in the diagram is
+the volume between $k$ and $k+dk$, divided by $(\pi/L)^3$.
+
+$$
+    N(k)=\frac{\text{volume of $dk$ shell}}{(\pi/L)^3}
+$$
+
+$$
+    \text{volume}=\frac{1}{8}\left(
+        \frac{4}{3}\pi(k+dk)^3-
+        \frac{4}{3}\pi k^3
+    \right)
+$$
+
+$$
+    \text{volume}=\frac{1}{8}\frac{4}{3}\pi\Big(
+        (k^2+dk^2+2k\,dk)(k+dk)-k^3
+    \Big)
+$$
+
+$$
+    \text{volume}=\frac{1}{8}\frac{4}{3}\pi\Big(
+        k^3+\underbrace{k^2dk}+dk^2\,k+dk^3+\underbrace{2k^2dk}+2k\,dk^2-k^3
+    \Big)
+$$
+
+$$
+    \text{volume}=\frac{1}{8}\frac{4}{3}\pi\Big(
+        3k^2dk
+    \Big)
+$$
+
+$$
+    \text{volume}=\tfrac{1}{2}\pi\,k^2dk
+$$
+
+
+$$
+    N(k)=\frac{\tfrac{1}{2}\pi\,k^2 dk}{(\pi/L)^3}
+    =\frac{V k^2 dk}{2\pi^2}
+$$
+where $V=L^3$ is the volume of the whole cavity.
+
+For any EM wave, there are 2 perpendicular polarizations for each mode $\therefore$
+$$
+    N(k)
+    =\frac{V k^2 dk}{\pi^2}
+$$
+We'll convert from wave-number to wavelength. 
+
+$$ k=\frac{2\pi}{\lambda} \quad \rightarrow \quad dk=(-1)\frac{2\pi}{\lambda^2}d\lambda $$
+
+$$
+  N(\lambda)=V\frac{k^2dk}{\pi^2}
+    =V\frac{1}{\pi^2}
+      \left(\frac{2\pi}{\lambda}\right)^2
+      \left[(-1)\frac{2\pi}{\lambda^2}d\lambda\right]
+$$
+
+$$
+    \boxed{
+    N(\lambda)=(-V)\frac{8\pi}{\lambda^4}d\lambda
+    }
+$$
+
+We now have the number of standing EM waves in the cavity at thermal equilibrium\footnote{Interpret the minus sign as waves leaving the system}.
+
+Each wave carries energy $k_BT$, thus the energy density
+of the EM fields of a blackbody at thermal equilibrium is
+
+$$
+        u(\lambda)d\lambda=k_BT\frac{N(\lambda)}{V}=
+        \frac{8\pi k_BT}{\lambda^4}d\lambda
+$$
+$$
+    \boxed{
+    \text{Rayleigh-Jeans Law: }
+    u(\lambda)=\frac{8\pi k_BT}{\lambda^4}}
+$$
+
+
+
+\newpage
+The first model for the blackbody SED is the
+Rayleigh-Jeans Law
+
+$$
+    B_\lambda = \frac{2ck_BT}{\lambda^4}
+    \quad \text{or} \quad
+    B_\nu = \frac{2\nu^2k_BT}{c^2}
+$$
+where 
+
+| **quantity** | **symbol** | **value** |
+|----------|--------|-------|
+| Speed of light | $c$ | 2.998e8 m/s |
+| Boltzmann constant | $k_b$ | 1.381e-23 J/K |
+
+
+
+
+\newpage
+
+**Plank functions** gives a blackbody's flux
+
+$$
+    B_\nu(\nu,T)=\frac{2h\nu^3}{c^2} \frac{1}{\text{exp}\left(\frac{h\nu}{k_B T}\right)-1}
+$$
+$$
+    B_\lambda(\lambda,T)=\frac{2hc^2}{\lambda^5} \frac{1}{\text{exp}\left(\frac{hc}{\lambda k_B T}\right)-1}
+$$
+|Plank's constant | $h$ | 6.626e-34 Js |
+
+$[B_{\nu,\lambda}]$ = power emitted from surface, per unit area, per unit solid angle, per spectral unit (frequency, wavelength).
+
+ex: $B_\lambda$ is the amount of energy emitted each second over a 
+wavelength interval of 1 unit length (cm, nm, Å, $\ldots$)
+by a surface area of 1 m$^2$ into a solid angle
+
+
+
+- Low frequency limit $h\nu<<k_BT$
+
+- High frequency limit $h\nu>>k_BT$
+
+\newpage
+![Plank's law for a variety of temperatures and wavelengths](../Ch05_Quantify_Light/Black_body_planks_law.pdf)
