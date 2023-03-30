@@ -596,30 +596,65 @@ $$
     u(\lambda)=\frac{8\pi k_BT}{\lambda^4}}
 $$
 
+Code to produce plot
 
+---------------------
 
-\newpage
-The first model for the blackbody SED is the
-Rayleigh-Jeans Law
+```
+import numpy as np
+from scipy.constants import *
+import plotly.express as px
 
+def Rayleigh_Jeans(lambda,T):
+    # lambda in nanomters
+        return 8*pi*k*T/(lambda*1e-9)**4
+
+em_spectrum=np.arange(200,700) # visible band = [380,700], lambda=200nm is UV
+T=[300,500,1000,2000]
+
+fig = px.line(x=em_spectrum,y=Rayleigh_Jeans(em_spectrum,0))
+for tt in T:
+    fig.add_scatter(x=em_spectrum,y=Rayleigh_Jeans(em_spectrum,tt))
+    fig.write_image('Rayleign_Jeans_em_spectrum.png')
+
+fig.show()
+```
+
+---------------------
+
+![Rayleigh-Jeans Blackbody SED from UV to end of the visible spectrum. ](../Ch05_Quantify_Light/Rayleign_Jeans_em_spectrum.png)
+
+The behavior at small wavelengths is concerning.
+Lets recast our energy density in terms of frequency
+and see what happens as we go to higher and higher frequencies.
+
+$$ \lambda u(\lambda) = \nu u(\nu) $$
+$$ u(\nu)=\frac{\lambda}{\nu}u(\lambda)$$
+$$ u(\nu)=\frac{\lambda}{\nu} \frac{8\pi k_BT}{\lambda^4} $$
+$$ u(\nu)=\frac{1}{\nu} \frac{8\pi k_BT}{\lambda^3} 
+    \qquad c=\lambda \nu
 $$
-    B_\lambda = \frac{2ck_BT}{\lambda^4}
-    \quad \text{or} \quad
-    B_\nu = \frac{2\nu^2k_BT}{c^2}
-$$
-where 
+$$ u(\nu)=\frac{1}{\nu} \frac{8\pi k_BT}{c^3/\nu^3} $$
+$$ \boxed{ u(\nu)=\frac{8\pi k_BT\nu^2}{c^3}} $$
 
-| **quantity** | **symbol** | **value** |
-|----------|--------|-------|
-| Speed of light | $c$ | 2.998e8 m/s |
-| Boltzmann constant | $k_b$ | 1.381e-23 J/K |
+To find the energy stored in the EM waves add up across all frequencies
+
+$$ \int_0^\infty \frac{8\pi k_BT\nu^2}{c^3} \rightarrow \infty $$
 
 
+**Ultraviolet catastrophe**! The blackbody emits an unlimited amount of energy as 
+wavelength decreases into the UV range. 
 
+Failure of classical physics!
 
-\newpage
+Why does classical physics fail here?
+In classical EM theory, the energy of an EM wave can take on **any** value.
+The photoelectic effect showed us that light energy must come in discrete packets, photons.
 
-**Plank functions** gives a blackbody's flux
+Photons have quantized energy 
+$E_n=nh\nu$.
+
+**Plank Law** gives the correct flux for a blackbody\footnote{We'll forgo its derivation for now.}
 
 $$
     B_\nu(\nu,T)=\frac{2h\nu^3}{c^2} \frac{1}{\text{exp}\left(\frac{h\nu}{k_B T}\right)-1}
@@ -635,11 +670,8 @@ ex: $B_\lambda$ is the amount of energy emitted each second over a
 wavelength interval of 1 unit length (cm, nm, Å, $\ldots$)
 by a surface area of 1 m$^2$ into a solid angle
 
-
-
 - Low frequency limit $h\nu<<k_BT$
 
 - High frequency limit $h\nu>>k_BT$
 
-\newpage
 ![Plank's law for a variety of temperatures and wavelengths](../Ch05_Quantify_Light/Black_body_planks_law.pdf)
