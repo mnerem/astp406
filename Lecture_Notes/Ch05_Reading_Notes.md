@@ -654,7 +654,131 @@ The photoelectic effect showed us that light energy must come in discrete packet
 Photons have quantized energy 
 $E_n=nh\nu$.
 
-**Plank Law** gives the correct flux for a blackbody\footnote{We'll forgo its derivation for now.}
+![PHET Simulation of the photoelectric effect](../Ch05_Quantify_Light/photo_electric_effect_phet.png)
+
+
+### Derivation of Plank's Law
+
+In our classical model of the blackbody, we counted up EM waves that
+store the energy trapped inside the cavity\footnote{
+This derivation follows the work found [https://edisciplinas.usp.br/pluginfile.php/48089/course/section/16461/qsp_chapter10-plank.pdf]}. 
+Using boundary conditions to constrain the modes of oscillations.
+
+Now add constraint that EM energy is quantized!
+- Energy of a particular **mode** of frequency $\nu$ is $h\nu$. 
+
+The energy of a mode is
+$$ E(\nu)_n = n h \nu, $$
+
+- Consider all modes to be in thermal equilibrium at temp $T$.
+
+Use the **Boltzmann distribution** to determine the expected number of photons
+in each mode. 
+
+$$ \boxed{
+    \text{Boltzmann Distribution: } 
+    p_i= \frac{e^{-\mathcal{E}_i/(k_bT)}}{
+               \sum_{m=0}^\infty e^{-\mathcal{E}_i/(k_bT)}
+    }
+}$$
+
+- $p_i$ : probability a single mode has energy $\mathcal{E}_i$.
+- $\mathcal{E}_i$ : energy of state $i$
+- $k_b T$ : thermal energy of the system
+- $\sum_{m=0}^\infty e^{-\mathcal{E}_i/(k_bT)}$ : The partition function.
+  Describes statistical properties of a system in thermal equilibrium.
+
+**Alternate way to describe this Boltzmann Distribution**:
+$p_i$ is the probability that a state contains $n$ photons 
+at frequency $\nu$.
+
+The mean energy of the mode of frequency $nu$ is
+
+$$\bar{E}(\nu)=\sum_{n=0}^\infty E_n \, p_n $$
+
+Note that : $\sum_{n=0}^\infty p_n=1$
+
+$$\bar{E}(\nu)=\sum_{n=0}^\infty E_n \left(\frac{e^{-E_n/(k_bT)}}{
+               \underbrace{\sum_{m=0}^\infty e^{-E_i/(k_bT)}}_{A}
+    }
+    \right)
+$$
+
+Let $\beta=1/k_bT$
+
+$$\bar{E}(\nu)=\sum_{n=0}^\infty E_n \left(\frac{e^{-\beta E_n}}{A}\right)$$
+
+$$=\frac{\sum_{n=0}^\infty E_n e^{-\beta E_n}}{A}$$
+
+
+$$=\frac{\sum_{n=0}^\infty E_n e^{-\beta E_n}}{\sum_{m=0}^\infty e^{-\beta E_i}}$$
+
+$$=\frac{\sum_{n=0}^\infty (nh\nu) e^{-\beta (nh\nu)}}{\sum_{m=0}^\infty e^{-\beta E_i}}$$
+
+Let $x=\exp(-\beta h\nu)$
+
+$$=h\nu\frac{\sum_{n=0}^\infty n x^n}{\sum_{m=0}^\infty x^m}$$
+
+$$=h\nu\frac{0+x+2x^2+3x^3+\cdots}{1+x+x^2+x^3+\cdots}$$
+
+$$\boxed{\bar{E}(\nu)=h\nu\,x\frac{1+2x+3x^2+\cdots}{1+x+x^2+x^3+\cdots}}$$
+
+Look closely at the series in the denominator.
+
+$$1+x+x^2+x^3+\cdots$$
+
+**Assume this series has a finite sum** and call that value $S$.
+
+$$S=1+x+x^2+x^3+\cdots$$
+
+$$xS=x+x^2+x^3+\cdots$$
+
+$$xS=S-1$$
+
+$$1=S-xS$$
+
+$$S=\frac{1}{1-x}$$
+
+$$\frac{1}{1-x}=1+x+x^2+x^3+\cdots$$
+
+**Caution**: Not a rigorous proof. Only valid if $x<1$
+or $\exp(-h\nu/(k_bT))<1$.
+
+Next step is unexpected but really awesome!
+
+$$\frac{d}{dx}\left[\frac{1}{1-x}\right]=\frac{d}{dx}[1+x+x^2+x^3+\cdots]$$
+
+$$\frac{1}{(1-x)^2}=0+1+2x+3x^2+\cdots$$
+which is the numerator in our mean energy calculation!
+
+$$\bar{E}(\nu)=h\nu\,x\frac{1}{(1-x)^2}\frac{1}{\frac{1}{1-x}}$$
+
+$$=h\nu\frac{x}{1-x}$$
+
+$$=h\nu\frac{1}{x^{-1}-1}$$
+
+$$\boxed{
+  \text{Plank's Law: }
+\bar{E}(\nu)=\frac{h\nu}{e^{h\nu/(k_bT)}-1}}$$
+
+![Plank's law for a variety of temperatures and wavelengths](../Ch05_Quantify_Light/Black_body_planks_law.pdf)
+
+What does Plank's law look like in the low frequency limit?
+$h\nu << k_bT$
+
+$$e^x=1+x+\frac{1}{2!}x^2+\frac{1}{3!}x^3+\cdots$$
+
+If $x<<1$ than
+
+$$e^x\approx 1+x$$
+
+and
+$$\bar{E}(\nu)=k_bT$$,
+For large wavelengths, we recover the classical energy of the system!
+
+\newpage
+
+**Plank Law** gives the correct flux for a blackbody.
 
 $$
     B_\nu(\nu,T)=\frac{2h\nu^3}{c^2} \frac{1}{\text{exp}\left(\frac{h\nu}{k_B T}\right)-1}
@@ -662,7 +786,8 @@ $$
 $$
     B_\lambda(\lambda,T)=\frac{2hc^2}{\lambda^5} \frac{1}{\text{exp}\left(\frac{hc}{\lambda k_B T}\right)-1}
 $$
-|Plank's constant | $h$ | 6.626e-34 Js |
+
+Plank's constant: $h$=6.626e-34 Js
 
 $[B_{\nu,\lambda}]$ = power emitted from surface, per unit area, per unit solid angle, per spectral unit (frequency, wavelength).
 
@@ -674,4 +799,3 @@ by a surface area of 1 m$^2$ into a solid angle
 
 - High frequency limit $h\nu>>k_BT$
 
-![Plank's law for a variety of temperatures and wavelengths](../Ch05_Quantify_Light/Black_body_planks_law.pdf)
