@@ -773,7 +773,7 @@ If $x<<1$ than
 $$e^x\approx 1+x$$
 
 and
-$$\bar{E}(\nu)=k_bT$$,
+$$\bar{E}(\nu)=k_bT.$$
 For large wavelengths, we recover the classical energy of the system!
 
 \newpage
@@ -796,6 +796,141 @@ wavelength interval of 1 unit length (cm, nm, Å, $\ldots$)
 by a surface area of 1 m$^2$ into a solid angle
 
 - Low frequency limit $h\nu<<k_BT$
+  
+  $$B_\lambda = 2\frac{hc}{\lambda^5} \frac{1}{e^x-1} \qquad x=\frac{hc}{k_bT \lambda}<<1 $$
+  $$ e^x \approx 1+x $$
+  $$B_\lambda \approx 2\frac{hc}{\lambda^5} \frac{1}{\frac{hc}{k_b T \lambda}}$$
+  $$B_\lambda \approx 2\frac{k_b T}{\lambda^4} \qquad \text{(Rayleigh-Jeans law again)}$$
+
 
 - High frequency limit $h\nu>>k_BT$
+
+    $$B_\nu = 2\frac{h\nu^3}{c^2}\frac{1}{e^{h\nu/k_b T}-1}$$
+    $$B_\nu \approx 2\frac{h\nu^3}{c^2}e^{-h\nu/k_b T} \qquad \text{(Wein approximation)}$$
+
+\newpage
+### Wein's Displacement Law
+
+We want to know what wavelength (for a given temperature) is the peak radiance at.
+
+![Need to find the local max of $B_\lambda$](../Ch05_Quantify_Light/weins_displacement_law.pdf){width=2in}
+
+To find a local max of a function 
+
+$$\frac{\partial f}{\partial q}=0$$
+and solve for $q$. Technically we also need to check concavity but we can gloss over that for now.
+
+$$\frac{\partial}{\partial \lambda}[B_\lambda]=0$$
+
+$$0=\frac{\partial}{\partial \lambda}\left[\frac{2hc^2}{\lambda^5}
+    \frac{1}{e^{hc/\lambda k_b T}-1} \right] $$
+
+$$0=(-5)2\frac{hc^2}{\lambda^6} \frac{1}{e^{hc/\lambda k_b T}-1}
+    +2\frac{hc^2}{\lambda^5}(-1)(e^{hc/\lambda k_b T}-1)^{-2}
+     \left((-1)\frac{hc}{\lambda^2 k_b T}e^{hc/\lambda k_b T}\right)
+$$
+
+$$\text{let } x=\frac{hc}{\lambda k_b T}$$
+
+$$0=-5 \frac{2hc^2}{\lambda^6}\frac{1}{e^x-1}+\frac{2hc^2}{\lambda^7}
+    \frac{1}{(e^x-1)^2}
+    \frac{hc}{k_b T}e^x
+$$
+
+$$0=-5\frac{1}{e^x-1}+\frac{1}{\lambda}\frac{e^x}{e^x-1}\frac{hc}{k_b T}$$
+
+$$0=-5+\frac{e^x}{e^x-1}x$$
+
+$$\boxed{x=5(1-e^{-x})}$$
+
+Make quick sketch by checking limits of this function.
+
+![Sketch of $x=5(1-e^{-x})$](../Ch05_Quantify_Light/weins_law_sketch.png)
+
+Use a numerical approach to solve this problem
+
+| x | $5(1-e^{-x})$ |
+|---|-----------------|
+| 1 | negative number |
+| 2 | 4.32... |
+| 3 | 4.75... |
+| 4 | 4.91... |
+| 5 | 4.96... |
+
+Solution is some value between $x=4$ and $x=5$.
+
+Use Newton's method to get the roots of this function.
+
+\newpage
+![Newton's method asymptotically approaches a root based on an input guess value.](../Ch05_Quantify_Light/newtons_method_sketch.png)
+
+$$ f^\prime(x_n)=\frac{\Delta y}{\Delta x}
+   = \frac{f(x_n-0}{x_n-x_{n+1}}$$
+
+$$ \boxed{
+    x_{n+1}=x_n-\frac{f(x_n)}{f^\prime(x_n)}
+}$$
+
+$$ f(x)=x-5(1-e^{-x})$$
+
+$$ f(x)=5e^{-x}+x-5 \qquad f^\prime(x)=-5e^{-x} + 1 $$
+
+Take $x_0=4$ and run this code.
+
+-------
+
+```
+import numpy as np
+x=np.zeros(10)
+x[0]=4
+for ii in range(len(x)-1):
+    x[ii+1]=x[ii]+(5*np.exp(-x[ii])+x[ii]-5)/(-5*np.exp(-x[ii])+1)
+
+print(x)
+```
+-------
+
+
+$$x=4.96511423$$
+
+$$ x=\frac{hc}{\lambda k_b} \frac{1}{T} $$
+
+$$ \lambda=\frac{hc}{x k_b} \frac{1}{T} $$
+
+$$ \boxed{ \lambda_\text{peak}=\frac{0.002897\text{mK}}{T} \qquad \text{Wein's Displacement Law} } $$
+
+Now we have a mechanism to determine the peak wavelength radiated by a blackbody at a given temperature.
+Let's apply this to stellar properties we can now determine.
+We'll model stars as spherical blackbodies and calculate their luminosity.
+
+$$ dL=B_\lambda d\lambda\,dA\,d\Omega $$
+
+$$L=\int_0^\pi \int_0^{4\pi R^2} \int_0^\infty
+    2\frac{hc^2}{\lambda^5}
+    \frac{1}{e^{hc/\lambda k_b T}-1}
+    d\lambda
+$$
+
+
+$$L=\pi (4\pi R^2) \int_0^\infty
+    2\frac{hc^2}{\lambda^5}
+    \frac{1}{e^{hc/\lambda k_b T}-1}
+    d\lambda
+$$
+
+let 
+$$ x=\frac{hc}{k_b T}\frac{1}{\lambda}
+    ,
+    \qquad
+   dx=(-1)\frac{hc}{k_b T}\frac{1}{\lambda^2} d\lambda
+$$
+
+$$
+    \frac{1}{\lambda}=x\frac{k_b T}{hc}
+    , \qquad
+    dx=(-1) \frac{x}{\lambda} d\lambda
+$$
+
+$$ L=\pi(4\pi R^2) \int_\infty^0 \frac{2hc^2}{\lambda^5}
+
 
