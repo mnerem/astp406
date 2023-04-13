@@ -7,11 +7,11 @@ This repository host the lecture notes and revealjs slides for ODU's ASTP 406 co
 
 | Lecture Notes | Lecture Slides |
 |---------------|----------------|
-| [Ch 1](./Lecture_Notes/Ch01_Lecture_Notes.pdf) | [Celestial Sphere and Coordinate Systems](./Ch01_Celestial_Sphere_and_Coordinate_Systems/Ch01_slides.html) |
-| [Ch 2](./Lecture_Notes/Ch02_Lecture_Notes.pdf) | [Time](./Ch02_Time/Ch02_slides.html) |
-| [Ch 4](./Lecture_Notes/Ch04_Lecture_Notes.pdf) | [Spherical Triangles](./Ch04_Spherical_Triangle/Ch04_slides.html) |
-| [Ch 5](./Lecture_Notes/Ch05_Reading_Notes.pdf) | [Quantify Light](./Ch05_Quantify_Light/Ch05_slides.html) |
-| [Ch 6](./Lecture_Notes/Ch06_Reading_Notes.pdf) | [Optical Telescopes](./Ch06_Optical_Telescopes/Ch06_slides.html) |
+| [Ch 1](./Ch01_Celestial_Sphere_and_Coordinate_Systems/Ch01_Lecture_Notes.pdf) | [Celestial Sphere and Coordinate Systems](./Ch01_Celestial_Sphere_and_Coordinate_Systems/Ch01_slides.html) |
+| [Ch 2](./Ch02_Time/Ch02_Lecture_Notes.pdf) | [Time](./Ch02_Time/Ch02_slides.html) |
+| [Ch 4](./Ch04_Spherical_Triangle/Ch04_Lecture_Notes.pdf) | [Spherical Triangles](./Ch04_Spherical_Triangle/Ch04_slides.html) |
+| [Ch 5](./Ch05_Quantify_Light/Ch05_Reading_Notes.pdf) | [Quantify Light](./Ch05_Quantify_Light/Ch05_slides.html) |
+| [Ch 6](./Ch06_Optical_Telescopes/Ch06_Reading_Notes.pdf) | [Optical Telescopes](./Ch06_Optical_Telescopes/Ch06_slides.html) |
 
 
 
