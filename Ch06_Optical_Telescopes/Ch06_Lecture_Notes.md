@@ -227,6 +227,8 @@ $$
 }
 $$
 
+Let's use these principles to build a simple two lens telescope
+
 
 \newpage
 
